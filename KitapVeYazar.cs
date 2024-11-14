@@ -1,3 +1,6 @@
+/* Bu örnekte,bir yazar birden fazla kitaba sahip olabilir,ancak bir kitap doğrudan yazara referans vermez.Bu yüzden Yazar sınıfı,
+Kitap sınıfını bir liste olarak içerir. */
+
 using System;
 using System.Collections.Generic;
 
@@ -17,7 +20,7 @@ class Yazar
 {
     public string Ad { get; set; }
     public string Ulke { get; set; }
-    public List<Kitap> Kitaplar { get; set; }
+    public List<Kitap> Kitaplar { get; set; } //Bu özellik,yazarın yazdığı kitapları bir liste olarak saklar.
 
     public Yazar(string ad, string ulke)
     {
