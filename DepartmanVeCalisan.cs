@@ -1,3 +1,6 @@
+/* Bu örnekte,bir çalışan bir departmana ait olabilir,ancak departman doğrudan çalışana referans vermez. Çalışan sınıfı,
+Departman sınıfını bir özellik olarak içerir. */
+
 using System;
 
 class Departman
