@@ -1,3 +1,6 @@
+/* Bu örneğin amacı,sınıflar ve nesneler arası ilişkiyi anlamaktır.Özellikle,bir yazar ile onun yazdığı kitaplar arasında"bir-yazara-çok-kitap"
+ilişkisini modellemeyi hedefler.Bir yazar birden fazla kitap yazabilir,fakat her kitap sadece bir yazara ait olabilir.(one-to-many)ilişkisi */
+
 using System;
 using System.Collections.Generic;
 
@@ -13,6 +16,7 @@ class Kitap
         YayınTarihi = yayinTarihi;
     }
 
+    //Yazarı ata fonksiyonu; yazarın KitapEkle metodunu çağırarak ilişkiyi kurar
     public void YazarAtama(Yazar yazar)
     {
         Yazar = yazar;
