@@ -1,7 +1,7 @@
 
 # 5.⁠ ⁠Hafta Lab Soruları
 
-Bu repository, 5. hafta laboratuvar çalışmaları için oluşturulan C# projelerini içermektedir. Her bir dosya farklı bir örneği temsil eder ve nesne yönelimli programlama (OOP) kavramlarını pekiştirmeye yöneliktir.
+Bu repository,Nesne Yönelimli Programlama dersinin 5. hafta laboratuvar çalışmaları için oluşturulan C# projelerini içermektedir. Her bir dosya farklı bir örneği temsil eder ve nesne yönelimli programlama (OOP) kavramlarını pekiştirmeye yöneliktir.
 
 İçerik
 
